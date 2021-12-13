@@ -75,9 +75,9 @@
                 nav_layer {
                         label = "NAV";
                         bindings = <
-   &none      &none       &none       &none      &none      &none       &none     &kp HOME   &kp UP     &kp PG_UP   &none   &kp BSPC
-   &none      &kp LSHFT   &kp LCTRL   &kp LALT   &kp LCMD   &none       &none     &kp LEFT   &kp DOWN   &kp RIGHT   &none   &none
-   &none      &none       &none       &none      &none      &none       &none     &kp END    &none      &kp PG_DN   &none   &none
+   &none      &none       &none       &none      &none      &none       &none     &kp HOME   &kp UP       &kp PG_UP   &none   &kp BSPC
+   &none      &kp LSHFT   &kp LCTRL   &kp LALT   &kp LCMD   &none       &none     &kp LEFT   &kp DOWN     &kp RIGHT   &none   &none
+   &none      &none       &none       &none      &none      &none       &none     &kp END    &kp K_CMENU  &kp PG_DN   &none   &none
                                       &mo OS     &none      &kp SPACE   &kp RET   &none      &mo NAV
                         >;
                 };
@@ -85,10 +85,10 @@
                 fun_layer {
                         label = "FUN";
                         bindings = <
-   &none      &kp F9      &kp F10   &kp F11    &kp F12    &none       &none       &none     &none       &none       &none       &kp BSPC
-   &none      &kp F5      &kp F6    &kp F7     &kp F8     &none       &none       &kp RCMD  &kp RALT    &kp RCTRL   &kp RSHFT   &none
-   &none      &kp F1      &kp F2    &kp F3     &kp F4     &none       &none       &none     &none       &none       &none       &none
-                                    &mo FUN    &none      &kp SPACE   &kp RET     &none     &mo OS
+   &none      &kp F9      &kp F10   &kp F11    &kp F12    &none       &none       &kp PAUSE_BREAK  &kp PSCRN   &none       &none       &kp BSPC
+   &none      &kp F5      &kp F6    &kp F7     &kp F8     &none       &none       &kp RCMD         &kp RALT    &kp RCTRL   &kp RSHFT   &none
+   &none      &kp F1      &kp F2    &kp F3     &kp F4     &none       &none       &none            &none       &none       &none       &none
+                                    &mo FUN    &none      &kp SPACE   &kp RET     &none            &mo OS
                         >;
                 };
 
@@ -96,10 +96,10 @@
                 os_layer {
                         label = "OS";
                         bindings = <
-   &none      &none       &none     &none     &none     &none       &none      &none     &none      &none       &none       &none
-   &none      &none       &none     &none     &none     &none       &none      &none     &none      &none       &none       &none
-   &none      &none       &none     &none     &none     &none       &none      &none     &none      &none       &none       &none
-                                    &mo OS    &none     &none       &none      &none     &mo OS
+   &none      &none       &none     &none     &none     &none       &none      &kp C_MUTE  &kp C_VOL_DN   &kp C_VOL_UP   &none       &none
+   &none      &none       &none     &none     &none     &none       &none      &kp C_PREV  &kp C_PP       &kp C_NEXT     &none       &none
+   &none      &none       &none     &none     &none     &none       &none      &none       &kp C_BRI_DEC  &kp C_BRI_INC  &none       &none
+                                    &mo OS    &none     &none       &none      &none       &mo OS
                         >;
                 };
 
