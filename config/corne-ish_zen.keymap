@@ -43,7 +43,6 @@
    &kp TAB   &kp Q        &kp W        &kp E       &kp R       &kp T     &kp Y  &kp U       &kp I       &kp O        &kp P           &kp BSPC
    &kp ESC   &hm LSHFT A  &hm LCTRL S  &hm LALT D  &hm LCMD F  &kp G     &kp H  &hm RCMD J  &hm RALT K  &hm RCTRL L  &hm RSHFT SEMI  &kp SQT
    &kp LSHFT &kp Z        &kp X        &kp C       &kp V       &kp B     &kp N  &kp M       &kp COMMA   &kp DOT      &kp FSLH        &kp MINUS
-                     
                  &mo FUN &mo NUM &kp SPACE   &kp RET &mo SYM &mo NAV
                         >;
                 };
@@ -59,7 +58,6 @@
    &kp TILDE  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp LT    &kp LBKT  &kp EQUAL       &kp RBKT &kp RT   &kp BSPC
    &none      &kp LSHFT  &kp LCTRL  &kp LALT  &kp LCMD  &kp CARET  &kp LBRC  &kp LPAR  &kp COLON       &kp RPAR &kp RBRC &kp GRAVE
    &none      &none      &none      &none     &none     &none      &kp PIPE  &kp AMPS  &kp KP_MULTIPLY &kp PLUS &kp BSLH &kp MINUS
-
                                     &none     &none     &kp SPACE  &kp RET   &mo SYM   &none
                         >;
                 };
@@ -70,29 +68,26 @@
    &none      &none      &none      &none     &none     &none       &none    &kp KP_N7 &kp KP_N8 &kp KP_N9   &none         &kp BSPC
    &none      &kp LSHFT  &kp LCTRL  &kp LALT  &kp LCMD  &none       &none    &kp KP_N4 &kp KP_N5 &kp KP_N6   &kp KP_PLUS   &none
    &none      &none      &none      &none     &none     &none       &none    &kp KP_N1 &kp KP_N2 &kp KP_N3   &kp KP_EQUAL  &kp MINUS
-                   
                                     &none     &none     &kp SPACE   &kp RET  &kp KP_N0 &none
                         >;
                 };
 
                 nav_layer {
                         label = "NAV";
-                        bindings = < 
+                        bindings = <
    &none      &none      &none      &none     &none     &none       &none    &kp HOME  &kp UP    &kp PG_UP   &none   &kp BSPC
    &none      &kp LSHFT  &kp LCTRL  &kp LALT  &kp LCMD  &none       &none    &kp LEFT  &kp DOWN  &kp RIGHT   &none   &none
    &none      &none      &none      &none     &none     &none       &none    &kp END   &none     &kp PG_DN   &none   &none
-                   
                                     &mo OS    &none   &kp SPACE     &kp RET  &none   &mo NAV
                         >;
                 };
 
                 fun_layer {
                         label = "FUN";
-                        bindings = < 
+                        bindings = <
    &none      &kp F9      &kp F10   &kp F11   &kp F12   &none       &none    &none     &none     &none       &none       &kp BSPC
    &none      &kp F5      &kp F6    &kp F7    &kp F8    &none       &none    &kp RCMD  &kp RALT  &kp RCTRL   &kp RSHFT   &none
    &none      &kp F1      &kp F2    &kp F3    &kp F4    &none       &none    &none     &none     &none       &none       &none
-                   
                                     &mo FUN   &none   &kp SPACE     &kp RET  &none   &mo OS
                         >;
                 };
@@ -100,12 +95,11 @@
 // NOTE: this not in-sync with asavoy-corne-mx
                 os_layer {
                         label = "OS";
-                        bindings = < 
+                        bindings = <
    &none      &none       &none     &none     &none     &none       &none    &none     &none     &none       &none       &none
    &none      &none       &none     &none     &none     &none       &none    &none     &none     &none       &none       &none
    &none      &none       &none     &none     &none     &none       &none    &none     &none     &none       &none       &none
-                   
-                                    &mo OS    &none     &none       &none    &none    &mo OS
+                                    &mo OS    &none     &none       &none    &none     &mo OS
                         >;
                 };
 
