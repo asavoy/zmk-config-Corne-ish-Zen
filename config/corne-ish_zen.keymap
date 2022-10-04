@@ -96,10 +96,10 @@
                 os_layer {
                         label = "OS";
                         bindings = <
-   &none      &none       &none     &none     &none     &none       &none      &kp C_MUTE  &kp C_VOL_DN   &kp C_VOL_UP   &none       &none
-   &none      &none       &none     &none     &none     &none       &none      &kp C_PREV  &kp C_PP       &kp C_NEXT     &none       &none
-   &none      &none       &none     &none     &none     &none       &none      &none       &kp C_BRI_DEC  &kp C_BRI_INC  &none       &none
-                                    &mo OS    &none     &none       &none      &none       &mo OS
+   &none      &none        &none        &none        &none     &none       &none      &kp C_MUTE  &kp C_VOL_DN   &kp C_VOL_UP   &none       &kp K_PWR
+   &none      &bt BT_CLR   &none        &none        &none     &none       &none      &kp C_PREV  &kp C_PP       &kp C_NEXT     &none       &none
+   &none      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none     &none       &none      &none       &kp C_BRI_DEC  &kp C_BRI_INC  &none       &none
+                                        &mo OS       &none     &none       &none      &none       &mo OS
                         >;
                 };
 
