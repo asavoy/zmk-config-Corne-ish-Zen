@@ -2,7 +2,9 @@
 
 ## Keymap
 
-- See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
+See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
+
+<img src="./asavoy-corne-mx.png" width="50%">
 
 
 ### Notes
