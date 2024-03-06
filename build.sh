@@ -23,18 +23,19 @@ docker run \
 	-e HOST_UID="$(id -u)" \
 	-e HOST_GID="$(id -g)" \
     "${docker_image}" \
-    sh -c "cd /.cache; bash /.cache/zmk-scripts/west-setup.sh && bash /.cache/zmk-scripts/west-build.sh corneish_zen_left && bash /.cache/zmk-scripts/west-build.sh corneish_zen_right"
+    sh -c "cd /.cache; bash /.cache/zmk-scripts/west-setup.sh && bash /.cache/zmk-scripts/west-build.sh corneish_zen_left"
+    # sh -c "cd /.cache; bash /.cache/zmk-scripts/west-setup.sh && bash /.cache/zmk-scripts/west-build.sh corneish_zen_left && bash /.cache/zmk-scripts/west-build.sh corneish_zen_right"
 
 
 mv .cache/corneish_zen_left.uf2 corneish_zen_left.uf2
-mv .cache/corneish_zen_right.uf2 corneish_zen_right.uf2
+# mv .cache/corneish_zen_right.uf2 corneish_zen_right.uf2
 
 echo ""
 echo ""
 echo ""
 echo "Build complete:"
 echo "- corneish_zen_left.uf2"
-echo "- corneish_zen_right.uf2"
+# echo "- corneish_zen_right.uf2"
 echo ""
 echo "To flash, run ./flash.sh"
 echo ""
