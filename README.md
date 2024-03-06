@@ -1,24 +1,35 @@
 # Corne-ish Zen
 
-# WIP docs
+## Keymap
 
-## Build locally
+- See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
 
-- WIP - `./build.sh` uses Docker to build the keymap locally, but the produced .uf2 file
-  doesn't seem to be valid, and when flashed, resets the keyboard to a default keymap.
-  The GitHub workflow still works fine, though.
 
-- `./flash.sh --label CORNEISHZEN corneish_zen_left.uf2` will flash to the keyboard
-  (must double-click the boot button on the keyboard first). However it will produce
-  an error message; it will have taken effect regardless.
+### Notes
+
+- TODO - explain why the keymaps is this way
+
+
+## Updating the keyboard
+
+- `./build.sh` builds the keymap, using Docker.
+- `./flash.sh` will flash the compiled keymap to the keyboard 
+
 
 ## Other notes
 
 - Only need the left keymap to be flashed (to the left hand side)
 
+
 ## Resources
 
 - [The Corne-ish Zen source repo](https://github.com/LOWPROKB/zmk-config-Corne-ish-Zen)
+
+
+## Credits
+
+- [rstacruz/my-zmk-config](https://github.com/rstacruz/my-zmk-config)
+
 
 -----
 
