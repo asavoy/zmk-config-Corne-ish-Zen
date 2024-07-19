@@ -17,6 +17,13 @@
 #define OS  5
 
 / {
+        chosen {
+                zmk,matrix-transform = &default_transform;
+                // zmk,matrix-transform = &five_column_transform;
+        };
+};
+
+/ {
         behaviors {
                 hm: homerow_mods {
                         compatible = "zmk,behavior-hold-tap";
@@ -33,7 +40,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        label = "QWERTY";
+                        display-name = "QWERTY";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // |  ESC |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -53,7 +60,7 @@
                 };
 
                 sym_layer {
-                        label = "SYM";
+                        display-name = "SYM";
 // -----------------------------------------------------------------------------------------
 // |  ~   |  !  |  @  |  #  |  $  |  %  |   |  <  |  [  |  =  |  ]  |  >  | BKSP |
 // |      | SHF | CTL | ALT | CMD |  ^  |   |  {  |  (  |  :  |  )  |  }  |  `   |
@@ -73,7 +80,7 @@
                 };
 
                 num_layer {
-                        label = "NUM";
+                        display-name = "NUM";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &none         &none         &none         &none         &none         &none             &none       &kp KP_N7     &kp KP_N8     &kp KP_N9       &none       &kp BSPC
@@ -88,7 +95,7 @@
                 };
 
                 nav_layer {
-                        label = "NAV";
+                        display-name = "NAV";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &none         &none         &none       &none           &none         &none             &none        &kp HOME      &kp UP       &kp PG_UP       &none        &kp BSPC
@@ -103,7 +110,7 @@
                 };
 
                 fun_layer {
-                        label = "FUN";
+                        display-name = "FUN";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &none        &kp F9        &kp F10       &kp F11       &kp F12        &none             &none    &kp PAUSE_BREAK  &kp PSCRN       &none         &none       &kp BSPC
@@ -119,7 +126,7 @@
 
 // NOTE: this not in-sync with asavoy-corne-mx
                 os_layer {
-                        label = "OS";
+                        display-name = "OS";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
         &none         &none         &none         &none        &none          &none             &none      &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP      &none       &kp K_PWR
