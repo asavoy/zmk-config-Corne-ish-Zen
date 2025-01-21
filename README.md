@@ -26,6 +26,8 @@ See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
 ## Other notes
 
 - Only need the left keymap to be flashed (to the left hand side)
+- The yellow LED turns on when charging
+- It seems to charge best when turned off
 
 ## Troubleshooting Bluetooth connection
 
