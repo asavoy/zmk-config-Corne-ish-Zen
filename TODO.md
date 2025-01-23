@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] Support the Rectangle Pro keyboard shortcuts better; maybe with Alt-Tab shortcuts too
 - [x] I shouldn't use the left-hand side Shift modifier, get rid of that
 - Rework the symbols layer
   - [ ] Look at Rico's new keymap: https://github.com/rstacruz/my-zmk-config
