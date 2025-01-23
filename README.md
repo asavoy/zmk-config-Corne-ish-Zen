@@ -4,7 +4,7 @@
 
 See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
 
-<img src="./my_keymap.png" width="50%">
+<img src="./my_keymap.svg" width="600">
 
 ## Keyboard usage
 
@@ -26,12 +26,12 @@ See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
   - The yellow LED turns on when charging
   - It seems to charge best when turned off
 
-- Generate `my_keymap.png`
+- Generate `my_keymap.svg`
 
   - Open: https://keymap-drawer.streamlit.app/
   - Paste from URL: `https://github.com/asavoy/zmk-config-Corne-ish-Zen/blob/main/config/corneish_zen.keymap`
-  - Export PNG
-  - Move the downloaded `my_keymap.png` to this repo
+  - Export SVG
+  - Move the downloaded `my_keymap.svg` to this repo
 
 ## Troubleshooting Bluetooth connection
 
