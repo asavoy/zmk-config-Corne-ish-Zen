@@ -6,26 +6,25 @@ See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
 
 <img src="./asavoy-corne-mx.png" width="50%">
 
-### Notes
+## Keyboard usage
 
-## Updating the keyboard
-
-- Building
+- Building the keymap and config
 
   - Push a change to main branch
   - GitHub action will run; download from the "Merged Artifacts" step
 
-- Flashing each side:
+- Flashing each side
+
   - Connect with a USB-A-to-USB-C cable; sometimes won't work over USB-C
   - Double-tap the reset button to enter boot loader
   - Drag the .uh2 file onto the Corneish drive
   - It will disconnect when flashed
 
-## Other notes
+- Other notes
 
-- Only need the left keymap to be flashed (to the left hand side)
-- The yellow LED turns on when charging
-- It seems to charge best when turned off
+  - Only need the left keymap to be flashed (to the left hand side)
+  - The yellow LED turns on when charging
+  - It seems to charge best when turned off
 
 ## Troubleshooting Bluetooth connection
 
