@@ -13,7 +13,7 @@
 - [x] see this config (which might require update to Zephyr 3.5): https://github.com/caksoylar/zmk-config/blob/main/config/corneish_zen.conf
   - [x] try these instructions: https://gist.github.com/caksoylar/c411313990978e1903c244f03039187a
 - [ ] explain why the keymaps is this way
-- [ ] add alias for +- keys (i.e. for zoom shortcuts) to top right keys of sym layer
+- [x] add alias for +- keys (i.e. for zoom shortcuts) to top right keys of sym layer
   - i don't use backspace on that layer
   - i also don't use > on that layer as i prefer shift .
 - [x] aerospace alt-num and alt-shift-num shortcuts don't work; fix
