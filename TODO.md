@@ -18,3 +18,10 @@
   - i also don't use > on that layer as i prefer shift .
 - [x] aerospace alt-num and alt-shift-num shortcuts don't work; fix
   - this was because the numbers were keypad numbers, not numrow nums
+- [ ] Update image layouts for recent changes
+  - zoom shortcuts
+  - operators
+  - left shift
+  - backspace removed
+  - OS layer
+
