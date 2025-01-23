@@ -1,4 +1,14 @@
-on: [push, pull_request, workflow_dispatch]
+
+on:
+  push:
+    paths:
+      - config/corneish_zen.conf
+      - config/corneish_zen.keymap
+  pull_request:
+    paths:
+      - config/corneish_zen.conf
+      - config/corneish_zen.keymap
+  workflow_dispatch: {}
 
 jobs:
   build:
