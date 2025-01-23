@@ -8,8 +8,6 @@ See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
 
 ### Notes
 
-- TODO - explain why the keymaps is this way
-
 ## Updating the keyboard
 
 - Building
