@@ -17,7 +17,7 @@ See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
 
   - Connect with a USB-A-to-USB-C cable; sometimes won't work over USB-C
   - Double-tap the reset button to enter boot loader
-  - Drag the .uh2 file onto the Corneish drive
+  - Drag the .uf2 file onto the Corneish drive
   - It will disconnect when flashed
 
 - Other notes
@@ -25,6 +25,7 @@ See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
   - Only need the left keymap to be flashed (to the left hand side)
   - The yellow LED turns on when charging
   - It seems to charge best when turned off
+  - Sometimes the keyboard won't connect over Bluetooth - usually toggling off/on the Bluetooth on macOS fixes it
 
 - Generate `my_keymap.svg`
 
@@ -34,6 +35,8 @@ See [`config/corne-ish_zen.keymap`](config/corne-ish_zen.keymap)
   - Move the downloaded `my_keymap.svg` to this repo
 
 ## Troubleshooting Bluetooth connection
+
+- Usually toggling off/on the Bluetooth on macOS fixes it. If not, follow instructions below:
 
 > If you are having issue with a lost Bluetooth connection or keyboard halves no longer communicating, and you have tried deleting host connections and re-establishing connections without avail, please try following the steps below to fix this.
 >
